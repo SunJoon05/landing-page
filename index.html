@@ -15,9 +15,9 @@
             <div class="hero-navigation">
               <h2 class="hero-navigation__title">Header Logo</h2>
               <nav class="hero-navigation__nav">
-                <a class="hero-navigation__link" href="">Info</a>
-                <a class="hero-navigation__link" href="">Message</a>
-                <a class="hero-navigation__link" href="">Footer</a>
+                <a class="hero-navigation__link" href="#info">Info</a>
+                <a class="hero-navigation__link" href="#message">Message</a>
+                <a class="hero-navigation__link" href="#footer">Footer</a>
               </nav>
             </div>
             <div class="hero-body">
@@ -43,7 +43,9 @@
       <section class="body">
         <div class="container-spacing">
           <div class="body-content">
-            <h2 class="body-content__title">Some random information</h2>
+            <h2 class="body-content__title" id="info">
+              Some random information
+            </h2>
             <div class="body-content__cards">
               <div class="body-content__card">
                 <div class="body-content__illustration"></div>
@@ -72,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="body-message">
+        <div class="body-message" id="message">
           <div class="body-message__content">
             <p class="body-message__paragraph">
               This is an inspiring quote, or a testimonial from a costumer.
@@ -95,6 +97,8 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer" id="footer">
+      <p>Copyright © The Odin Project 2021</p>
+    </footer>
   </body>
 </html>
